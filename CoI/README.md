@@ -31,29 +31,6 @@ At a high level:
 
 This is composition because the application behavior emerges from collaborating components, each with a narrow responsibility.
 
-## Project structure
-
-```text
-CoI/
-  Factories/
-    PaymentGatewayFactory.cs
-  Gateways/
-    PayPalPaymentGateway.cs
-    VippsPaymentGateway.cs
-  Interfaces/
-    IPaymentGateway.cs
-    IPaymentGatewayFactory.cs
-    IPaymentGatewayResolver.cs
-  Models/
-    PaymentGatewayKey.cs
-    PaymentRequest.cs
-    PaymentResult.cs
-  Services/
-    PaymentGatewayResolver.cs
-    PaymentService.cs
-  Program.cs
-```
-
 ## Design overview
 
 ### Contracts
